@@ -1,0 +1,3 @@
+[submodule "static/bolt"]
+	path = static/bolt
+	url = git@github.com:stephband/bolt-2

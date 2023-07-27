@@ -1,0 +1,44 @@
+
+@import "../bolt/elements/html.css";
+@import "../bolt/elements/root.css";
+@import "../bolt/elements/body.css";
+@import "../bolt/elements/a.css";
+@import "../bolt/elements/type.css";
+@import "../bolt/elements/fullscreen.css";
+
+@import "../bolt/classes/active.css";
+@import "../bolt/classes/content.css";
+@import "../bolt/classes/device.css";
+@import "../bolt/classes/focus.css";
+@import "../bolt/classes/block.css";
+@import "../bolt/classes/select-button.css";
+@import "../bolt/classes/states.css";
+@import "../bolt/classes/list.css";
+@import "../bolt/classes/scroll.css";
+
+@import "./classes/fill.css";
+
+:root {
+    background-color: #f1efe9;
+}
+
+:root,
+body {
+    overflow: hidden;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f1efe9;
+    font-size: calc(0.79166667rem + 0.41666667vw);
+    margin-top: -7.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
