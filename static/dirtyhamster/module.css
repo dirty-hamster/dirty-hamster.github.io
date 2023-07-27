@@ -42,3 +42,12 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f1efe9;
+    font-size: calc(0.625rem + 0.3125vw);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0.4em;
+}
